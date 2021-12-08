@@ -1,0 +1,137 @@
+@import url(imports/variables.css);
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;600&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  font-family: raleway, sans-serif;
+}
+
+.links {
+  padding: 20px;
+  margin: 20px;
+}
+
+.links a {
+  padding: 10px 20px;
+  margin: 10px;
+  color: var(--white);
+  background-color: var(--orange);
+}
+
+.links a:hover {
+  background-color: var(--orange-hover);
+}
+
+/* ======== Header ======== */
+
+header {
+  text-align: center;
+}
+
+.heading {
+  padding: 20px 0px;
+}
+
+hr {
+  opacity: 0.2;
+}
+
+/* ======== Tab menu ======== */
+
+.tab-menu {
+  padding-top: 20px;
+  display: flex;
+}
+
+.tab-rainydays,
+.tab-museum,
+.tab-villabergås {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  width: 100%;
+  font-size: 1.2em;
+}
+
+.tab-rainydays:hover,
+.tab-museum:hover,
+.tab-villabergås:hover {
+  /* background-color: var(--orange-hover); */
+  opacity: 0.8;
+}
+
+/* ======== Tab and section colors ======== */
+
+.tab-rainydays,
+.rainydays-section {
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+.tab-museum,
+.museum-section {
+  background-color: var(--light-green);
+  color: var(--white);
+}
+
+.tab-villabergås,
+.villabergås-section {
+  background-color: var(--black-tran);
+  color: var(--white);
+}
+
+/* ======== Section ======== */
+
+.rainydays-section,
+.museum-section,
+.villabergås-section {
+  text-align: center;
+  padding: 40px;
+}
+
+.museum-section,
+.villabergås-section {
+  display: none;
+}
+
+/* ======== Content-section ======== */
+
+.rainydays-content,
+.museum-content,
+.villabergås-content {
+  background-color: var(--white);
+  color: var(--black);
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  margin: 0px auto;
+  text-align: left;
+  padding: 20px;
+  gap: 20px;
+}
+
+/* ======== Footer ======== */
+
+.footer-banner {
+  background-color: var(--white);
+  text-align: center;
+  padding: 10px;
+}
+
+/* ======== Media ======== */
+
+@media (min-width: 600px) {
+  .rainydays-content,
+  .museum-content,
+  .villabergås-content {
+    flex-direction: row;
+  }
+}

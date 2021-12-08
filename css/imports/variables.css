@@ -1,0 +1,13 @@
+:root {
+  /* ======== Colors ======== */
+
+  --black: #000000;
+  --black-tran: rgba(0, 0, 0, 0.9);
+  --white: #fffefe;
+  --orange: #e07e56;
+  --orange-hover: rgb(226, 158, 131);
+  --light-green: #546968;
+  --light-green-hover: #82a3a2;
+  --blue: #002633;
+  --blue-hover: #073c4e;
+}
