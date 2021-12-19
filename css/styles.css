@@ -110,12 +110,21 @@ hr {
   background-color: var(--white);
   color: var(--black);
   max-width: 1200px;
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   margin: 0px auto;
   text-align: left;
   padding: 20px;
   gap: 20px;
+}
+
+ol {
+  margin: 20px 15px;
+}
+li {
+  margin: 10px 0px;
 }
 
 /* ======== Footer ======== */
