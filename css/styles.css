@@ -127,6 +127,16 @@ li {
   margin: 10px 0px;
 }
 
+.message-color {
+  background-color: var(--orange-bg-text);
+  background: linear-gradient(
+    rgba(226, 158, 131, 0.01),
+    rgba(226, 158, 131, 0.3),
+    rgba(226, 158, 131, 0.4),
+    rgba(226, 158, 131, 0.3),
+    rgba(226, 158, 131, 0.01)
+  );
+}
 /* ======== Footer ======== */
 
 .footer-banner {

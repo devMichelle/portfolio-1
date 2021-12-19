@@ -6,6 +6,7 @@
   --white: #fffefe;
   --orange: #e07e56;
   --orange-hover: rgb(226, 158, 131);
+  --orange-bg-text: rgba(226, 158, 131, 0.01);
   --light-green: #546968;
   --light-green-hover: #82a3a2;
   --blue: #002633;
